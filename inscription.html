@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription | Agrafe.tn</title>
+    <meta name="description" content="Créez votre compte Agrafe.tn">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-left">
+                <span><i class="fas fa-phone"></i> +216 71 000 000</span>
+                <a href="mailto:contact@agrafe.tn"><i class="fas fa-envelope"></i> contact@agrafe.tn</a>
+            </div>
+            <div class="top-bar-right">
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Grand Tunis</a>
+                <a href="#"><i class="fas fa-truck"></i> Livraison gratuite dès 300 DT</a>
+                <a href="compte.html"><i class="fas fa-user"></i> Mon Compte</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">AGRAFE<span>.tn</span><small>Papeterie & Bureau</small></a>
+            <div class="search-bar">
+                <input type="text" placeholder="Rechercher un produit...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="header-actions">
+                <a href="#" class="header-action"><i class="far fa-heart"></i><span>Favoris</span></a>
+                <a href="panier.html" class="header-action"><i class="fas fa-shopping-cart"></i><span class="badge">3</span><span>Panier</span></a>
+                <a href="connexion.html" class="header-action"><i class="far fa-user"></i><span>Connexion</span></a>
+            </div>
+            <div class="mobile-toggle"><i class="fas fa-bars"></i></div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav-bar">
+        <div class="container">
+            <ul class="nav-menu">
+                <li>
+                    <a href="#"><i class="fas fa-bars" style="margin-right:8px;"></i> Toutes les catégories</a>
+                    <ul class="dropdown">
+                        <li><a href="#"><i class="fas fa-file-alt"></i> Papier & Rames</a></li>
+                        <li><a href="#"><i class="fas fa-pen"></i> Écriture & Correction</a></li>
+                        <li><a href="#"><i class="fas fa-folder"></i> Classement & Archivage</a></li>
+                        <li><a href="#"><i class="fas fa-desktop"></i> Informatique & Bureautique</a></li>
+                        <li><a href="#"><i class="fas fa-print"></i> Impression & Copies</a></li>
+                        <li><a href="#"><i class="fas fa-chair"></i> Mobilier de Bureau</a></li>
+                        <li><a href="#"><i class="fas fa-coffee"></i> Pause Café</a></li>
+                        <li><a href="#"><i class="fas fa-paint-brush"></i> Fournitures Scolaires</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Papier</a></li>
+                <li><a href="#">Écriture</a></li>
+                <li><a href="#">Classement</a></li>
+                <li><a href="#">Informatique</a></li>
+                <li><a href="#">Mobilier</a></li>
+                <li><a href="#">Scolaire</a></li>
+                <li><a href="#">Promotions</a></li>
+                <li><a href="#">Nouveautés</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Auth Page -->
+    <section class="auth-page">
+        <div class="container">
+            <div class="auth-container">
+                <div class="auth-card">
+                    <a href="index.html" class="logo">AGRAFE<span>.tn</span></a>
+                    <h2>Créer un compte</h2>
+                    <p>Inscrivez-vous pour profiter de tous nos avantages</p>
+
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Prénom *</label>
+                                <input type="text" placeholder="Votre prénom" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Nom *</label>
+                                <input type="text" placeholder="Votre nom" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Adresse Email *</label>
+                            <input type="email" placeholder="votre@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Téléphone *</label>
+                            <input type="tel" placeholder="+216 XX XXX XXX" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Mot de passe *</label>
+                            <input type="password" placeholder="Min. 8 caractères" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Confirmer le mot de passe *</label>
+                            <input type="password" placeholder="Confirmez votre mot de passe" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="checkbox-group">
+                                <input type="checkbox" required>
+                                <span>J'accepte les <a href="#" style="color: var(--primary);">conditions d'utilisation</a> et la <a href="#" style="color: var(--primary);">politique de confidentialité</a></span>
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label class="checkbox-group">
+                                <input type="checkbox">
+                                <span>Je souhaite recevoir les offres et nouveautés par email</span>
+                            </label>
+                        </div>
+                        <button type="submit" class="btn-add-cart-lg">S'inscrire</button>
+                    </form>
+
+                    <div class="auth-divider">ou</div>
+
+                    <button class="btn-continue" style="margin-top: 0;">
+                        <i class="fab fa-google"></i> S'inscrire avec Google
+                    </button>
+
+                    <div class="auth-footer">
+                        Déjà un compte ? <a href="connexion.html">Se connecter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-about">
+                    <a href="index.html" class="logo">AGRAFE<span>.tn</span></a>
+                    <p>Votre spécialiste de la papeterie et des fournitures de bureau en Tunisie.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Catégories</h4>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Papier & Rames</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Écriture & Correction</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Classement & Archivage</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Informations</h4>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> À propos</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Conditions</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Confidentialité</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Mon Compte</h4>
+                    <ul class="footer-links">
+                        <li><a href="connexion.html"><i class="fas fa-chevron-right"></i> Connexion</a></li>
+                        <li><a href="inscription.html"><i class="fas fa-chevron-right"></i> Inscription</a></li>
+                        <li><a href="panier.html"><i class="fas fa-chevron-right"></i> Mon Panier</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col footer-contact">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Avenue Habib Bourguiba, Tunis</p>
+                    <p><i class="fas fa-phone"></i> +216 71 000 000</p>
+                    <p><i class="fas fa-envelope"></i> contact@agrafe.tn</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div>© 2024 Agrafe.tn - Tous droits réservés.</div>
+                <div class="payment-methods">
+                    <span><i class="fas fa-money-bill-wave"></i> Espèces</span>
+                    <span><i class="fas fa-credit-card"></i> Carte</span>
+                    <span><i class="fas fa-university"></i> Virement</span>
+                    <span><i class="fas fa-mobile-alt"></i> D17</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
