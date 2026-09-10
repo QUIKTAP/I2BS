@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Panier | I2BS.tn</title>
+    <meta name="description" content="Votre panier - I2BS.tn Papeterie & Fournitures de Bureau">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-left">
+                <span><i class="fas fa-phone"></i> +216 71 000 000</span>
+                <a href="mailto:contact@i2bs.tn"><i class="fas fa-envelope"></i> contact@i2bs.tn</a>
+            </div>
+            <div class="top-bar-right">
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Grand Tunis</a>
+                <a href="#"><i class="fas fa-truck"></i> Livraison gratuite dès 300 DT</a>
+                <a href="compte.html"><i class="fas fa-user"></i> Mon Compte</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">I2BS<span>.tn</span><small>Papeterie & Bureau</small></a>
+            <div class="search-bar">
+                <input type="text" placeholder="Rechercher un produit...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="header-actions">
+                <a href="#" class="header-action"><i class="far fa-heart"></i><span>Favoris</span></a>
+                <a href="panier.html" class="header-action"><i class="fas fa-shopping-cart"></i><span class="badge">3</span><span>Panier</span></a>
+                <a href="connexion.html" class="header-action"><i class="far fa-user"></i><span>Connexion</span></a>
+            </div>
+            <div class="mobile-toggle"><i class="fas fa-bars"></i></div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav-bar">
+        <div class="container">
+            <ul class="nav-menu">
+                <li>
+                    <a href="#"><i class="fas fa-bars" style="margin-right:8px;"></i> Toutes les catégories</a>
+                    <ul class="dropdown">
+                        <li><a href="#"><i class="fas fa-file-alt"></i> Papier & Rames</a></li>
+                        <li><a href="#"><i class="fas fa-pen"></i> Écriture & Correction</a></li>
+                        <li><a href="#"><i class="fas fa-folder"></i> Classement & Archivage</a></li>
+                        <li><a href="#"><i class="fas fa-desktop"></i> Informatique & Bureautique</a></li>
+                        <li><a href="#"><i class="fas fa-print"></i> Impression & Copies</a></li>
+                        <li><a href="#"><i class="fas fa-chair"></i> Mobilier de Bureau</a></li>
+                        <li><a href="#"><i class="fas fa-coffee"></i> Pause Café</a></li>
+                        <li><a href="#"><i class="fas fa-paint-brush"></i> Fournitures Scolaires</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Papier</a></li>
+                <li><a href="#">Écriture</a></li>
+                <li><a href="#">Classement</a></li>
+                <li><a href="#">Informatique</a></li>
+                <li><a href="#">Mobilier</a></li>
+                <li><a href="#">Scolaire</a></li>
+                <li><a href="#">Promotions</a></li>
+                <li><a href="#">Nouveautés</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="index.html">Accueil</a>
+            <span>/</span>
+            <span>Mon Panier</span>
+        </div>
+    </div>
+
+    <!-- Cart Page -->
+    <section class="cart-page">
+        <div class="container">
+            <h1><i class="fas fa-shopping-cart" style="color: var(--primary); margin-right: 10px;"></i>Mon Panier</h1>
+
+            <div class="cart-grid">
+                <!-- Cart Items -->
+                <div class="cart-items">
+                    <div class="cart-item">
+                        <div class="cart-item-img"><i class="fas fa-file-alt"></i></div>
+                        <div class="cart-item-info">
+                            <h4>Rame Papier A4 Multi Office 80g</h4>
+                            <p>500 Feuilles Extra Blanc</p>
+                            <button class="cart-item-remove"><i class="fas fa-trash-alt"></i> Supprimer</button>
+                        </div>
+                        <div class="cart-item-price">10.500 TND</div>
+                        <div class="qty-control">
+                            <button class="qty-minus">-</button>
+                            <input type="number" value="2" min="1" max="99">
+                            <button class="qty-plus">+</button>
+                        </div>
+                        <div class="cart-item-total">21.000 TND</div>
+                    </div>
+
+                    <div class="cart-item">
+                        <div class="cart-item-img"><i class="fas fa-pen"></i></div>
+                        <div class="cart-item-info">
+                            <h4>Stylo Bille Bic Cristal Original</h4>
+                            <p>Lot de 50 - Bleu</p>
+                            <button class="cart-item-remove"><i class="fas fa-trash-alt"></i> Supprimer</button>
+                        </div>
+                        <div class="cart-item-price">8.500 TND</div>
+                        <div class="qty-control">
+                            <button class="qty-minus">-</button>
+                            <input type="number" value="1" min="1" max="99">
+                            <button class="qty-plus">+</button>
+                        </div>
+                        <div class="cart-item-total">8.500 TND</div>
+                    </div>
+
+                    <div class="cart-item">
+                        <div class="cart-item-img"><i class="fas fa-folder"></i></div>
+                        <div class="cart-item-info">
+                            <h4>Classeur à Levier Esselte A4</h4>
+                            <p>Dos 80mm - Lot de 10</p>
+                            <button class="cart-item-remove"><i class="fas fa-trash-alt"></i> Supprimer</button>
+                        </div>
+                        <div class="cart-item-price">45.000 TND</div>
+                        <div class="qty-control">
+                            <button class="qty-minus">-</button>
+                            <input type="number" value="1" min="1" max="99">
+                            <button class="qty-plus">+</button>
+                        </div>
+                        <div class="cart-item-total">45.000 TND</div>
+                    </div>
+                </div>
+
+                <!-- Cart Summary -->
+                <div class="cart-summary">
+                    <h3>Récapitulatif</h3>
+                    <div class="summary-row">
+                        <span>Sous-total (3 articles)</span>
+                        <span>74.500 TND</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Livraison</span>
+                        <span class="free">Gratuite</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>TVA (19%)</span>
+                        <span>14.155 TND</span>
+                    </div>
+                    <div class="summary-row total">
+                        <span>Total</span>
+                        <span>88.655 TND</span>
+                    </div>
+                    <a href="commande.html" class="btn-checkout">
+                        <i class="fas fa-lock"></i> Passer la commande
+                    </a>
+                    <a href="index.html" class="btn-continue">
+                        <i class="fas fa-arrow-left"></i> Continuer les achats
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-about">
+                    <a href="index.html" class="logo">I2BS<span>.tn</span></a>
+                    <p>Votre spécialiste de la papeterie et des fournitures de bureau en Tunisie.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Catégories</h4>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Papier & Rames</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Écriture & Correction</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Classement & Archivage</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Informatique & Bureautique</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Informations</h4>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> À propos</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Conditions</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Confidentialité</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Livraison</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Mon Compte</h4>
+                    <ul class="footer-links">
+                        <li><a href="connexion.html"><i class="fas fa-chevron-right"></i> Connexion</a></li>
+                        <li><a href="inscription.html"><i class="fas fa-chevron-right"></i> Inscription</a></li>
+                        <li><a href="panier.html"><i class="fas fa-chevron-right"></i> Mon Panier</a></li>
+                        <li><a href="compte.html"><i class="fas fa-chevron-right"></i> Mes Commandes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col footer-contact">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Avenue Habib Bourguiba, Tunis</p>
+                    <p><i class="fas fa-phone"></i> +216 71 000 000</p>
+                    <p><i class="fas fa-envelope"></i> contact@i2bs.tn</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div>© 2024 I2BS.tn - Tous droits réservés.</div>
+                <div class="payment-methods">
+                    <span><i class="fas fa-money-bill-wave"></i> Espèces</span>
+                    <span><i class="fas fa-credit-card"></i> Carte</span>
+                    <span><i class="fas fa-university"></i> Virement</span>
+                    <span><i class="fas fa-mobile-alt"></i> D17</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

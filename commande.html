@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passer Commande | I2BS.tn</title>
+    <meta name="description" content="Finalisez votre commande - I2BS.tn">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-left">
+                <span><i class="fas fa-phone"></i> +216 71 000 000</span>
+                <a href="mailto:contact@i2bs.tn"><i class="fas fa-envelope"></i> contact@i2bs.tn</a>
+            </div>
+            <div class="top-bar-right">
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Grand Tunis</a>
+                <a href="#"><i class="fas fa-truck"></i> Livraison gratuite dès 300 DT</a>
+                <a href="compte.html"><i class="fas fa-user"></i> Mon Compte</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">I2BS<span>.tn</span><small>Papeterie & Bureau</small></a>
+            <div class="search-bar">
+                <input type="text" placeholder="Rechercher un produit...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="header-actions">
+                <a href="#" class="header-action"><i class="far fa-heart"></i><span>Favoris</span></a>
+                <a href="panier.html" class="header-action"><i class="fas fa-shopping-cart"></i><span class="badge">3</span><span>Panier</span></a>
+                <a href="connexion.html" class="header-action"><i class="far fa-user"></i><span>Connexion</span></a>
+            </div>
+            <div class="mobile-toggle"><i class="fas fa-bars"></i></div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav-bar">
+        <div class="container">
+            <ul class="nav-menu">
+                <li>
+                    <a href="#"><i class="fas fa-bars" style="margin-right:8px;"></i> Toutes les catégories</a>
+                    <ul class="dropdown">
+                        <li><a href="#"><i class="fas fa-file-alt"></i> Papier & Rames</a></li>
+                        <li><a href="#"><i class="fas fa-pen"></i> Écriture & Correction</a></li>
+                        <li><a href="#"><i class="fas fa-folder"></i> Classement & Archivage</a></li>
+                        <li><a href="#"><i class="fas fa-desktop"></i> Informatique & Bureautique</a></li>
+                        <li><a href="#"><i class="fas fa-print"></i> Impression & Copies</a></li>
+                        <li><a href="#"><i class="fas fa-chair"></i> Mobilier de Bureau</a></li>
+                        <li><a href="#"><i class="fas fa-coffee"></i> Pause Café</a></li>
+                        <li><a href="#"><i class="fas fa-paint-brush"></i> Fournitures Scolaires</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Papier</a></li>
+                <li><a href="#">Écriture</a></li>
+                <li><a href="#">Classement</a></li>
+                <li><a href="#">Informatique</a></li>
+                <li><a href="#">Mobilier</a></li>
+                <li><a href="#">Scolaire</a></li>
+                <li><a href="#">Promotions</a></li>
+                <li><a href="#">Nouveautés</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="index.html">Accueil</a>
+            <span>/</span>
+            <a href="panier.html">Mon Panier</a>
+            <span>/</span>
+            <span>Commande</span>
+        </div>
+    </div>
+
+    <!-- Checkout Page -->
+    <section class="checkout-page">
+        <div class="container">
+            <h1><i class="fas fa-credit-card" style="color: var(--primary); margin-right: 10px;"></i>Passer la Commande</h1>
+
+            <div class="checkout-grid">
+                <!-- Checkout Form -->
+                <div class="checkout-form">
+                    <!-- Contact Info -->
+                    <div class="form-section">
+                        <h3><i class="fas fa-user"></i> Informations de Contact</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Prénom *</label>
+                                <input type="text" placeholder="Votre prénom" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Nom *</label>
+                                <input type="text" placeholder="Votre nom" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Email *</label>
+                                <input type="email" placeholder="votre@email.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Téléphone *</label>
+                                <input type="tel" placeholder="+216 XX XXX XXX" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Shipping Address -->
+                    <div class="form-section">
+                        <h3><i class="fas fa-map-marker-alt"></i> Adresse de Livraison</h3>
+                        <div class="form-group">
+                            <label>Adresse *</label>
+                            <input type="text" placeholder="Rue, numéro, immeuble..." required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Ville *</label>
+                                <select required>
+                                    <option value="">Sélectionnez une ville</option>
+                                    <option>Tunis</option>
+                                    <option>Ariana</option>
+                                    <option>Ben Arous</option>
+                                    <option>La Manouba</option>
+                                    <option>Sfax</option>
+                                    <option>Sousse</option>
+                                    <option>Nabeul</option>
+                                    <option>Bizerte</option>
+                                    <option>Autre</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Code Postal</label>
+                                <input type="text" placeholder="1000">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Instructions de livraison (optionnel)</label>
+                            <textarea placeholder="Étage, interphone, instructions spéciales..."></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Payment Method -->
+                    <div class="form-section">
+                        <h3><i class="fas fa-credit-card"></i> Mode de Paiement</h3>
+                        <div class="payment-methods-list">
+                            <label class="payment-method selected">
+                                <input type="radio" name="payment" value="cod" checked>
+                                <i class="fas fa-money-bill-wave"></i>
+                                <div>
+                                    <strong>Paiement à la livraison</strong>
+                                    <span>Payer en espèces à la réception de votre commande</span>
+                                </div>
+                            </label>
+                            <label class="payment-method">
+                                <input type="radio" name="payment" value="card">
+                                <i class="fas fa-credit-card"></i>
+                                <div>
+                                    <strong>Carte bancaire</strong>
+                                    <span>Paiement sécurisé par carte Visa/Mastercard</span>
+                                </div>
+                            </label>
+                            <label class="payment-method">
+                                <input type="radio" name="payment" value="d17">
+                                <i class="fas fa-mobile-alt"></i>
+                                <div>
+                                    <strong>D17 / Paiement mobile</strong>
+                                    <span>Payer via votre application bancaire mobile</span>
+                                </div>
+                            </label>
+                            <label class="payment-method">
+                                <input type="radio" name="payment" value="transfer">
+                                <i class="fas fa-university"></i>
+                                <div>
+                                    <strong>Virement bancaire</strong>
+                                    <span>Effectuer un virement sur notre compte bancaire</span>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-checkout" style="margin-top: 10px;">
+                        <i class="fas fa-check-circle"></i> Confirmer la commande
+                    </button>
+                </div>
+
+                <!-- Order Summary -->
+                <div class="cart-summary">
+                    <h3>Votre Commande</h3>
+                    <div class="summary-row">
+                        <span>Rame Papier A4 Multi Office x2</span>
+                        <span>21.000 TND</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Stylo Bille Bic Cristal x1</span>
+                        <span>8.500 TND</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Classeur Esselte A4 x1</span>
+                        <span>45.000 TND</span>
+                    </div>
+                    <div class="summary-row" style="border-top: 1px solid var(--border); padding-top: 12px; margin-top: 12px;">
+                        <span>Sous-total</span>
+                        <span>74.500 TND</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Livraison</span>
+                        <span class="free">Gratuite</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>TVA (19%)</span>
+                        <span>14.155 TND</span>
+                    </div>
+                    <div class="summary-row total">
+                        <span>Total</span>
+                        <span>88.655 TND</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-about">
+                    <a href="index.html" class="logo">I2BS<span>.tn</span></a>
+                    <p>Votre spécialiste de la papeterie et des fournitures de bureau en Tunisie.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Catégories</h4>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Papier & Rames</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Écriture & Correction</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Classement & Archivage</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Informations</h4>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> À propos</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Conditions</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Confidentialité</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Mon Compte</h4>
+                    <ul class="footer-links">
+                        <li><a href="connexion.html"><i class="fas fa-chevron-right"></i> Connexion</a></li>
+                        <li><a href="inscription.html"><i class="fas fa-chevron-right"></i> Inscription</a></li>
+                        <li><a href="panier.html"><i class="fas fa-chevron-right"></i> Mon Panier</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col footer-contact">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Avenue Habib Bourguiba, Tunis</p>
+                    <p><i class="fas fa-phone"></i> +216 71 000 000</p>
+                    <p><i class="fas fa-envelope"></i> contact@i2bs.tn</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div>© 2024 I2BS.tn - Tous droits réservés.</div>
+                <div class="payment-methods">
+                    <span><i class="fas fa-money-bill-wave"></i> Espèces</span>
+                    <span><i class="fas fa-credit-card"></i> Carte</span>
+                    <span><i class="fas fa-university"></i> Virement</span>
+                    <span><i class="fas fa-mobile-alt"></i> D17</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
